@@ -25,6 +25,13 @@ img {
 }
 
 
+/* OUTLINE STYLES */
+*:focus {
+    outline: 2px dashed #2bd0d0;
+    outline-offset: 3px;
+}
+
+
 /* CONTAINER */
 .container {
     width: 100%;
@@ -33,4 +40,112 @@ img {
     padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+/* SITE-HEADER */
+.site-header { 
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-color: #fff;
+}
+
+.site-header__container {
+    display: flex;
+    align-items: center;
+}
+
+/* SITE-LOGO */
+.site-logo {
+    margin-right: 45px;
+    transition: opacity 0.4s ease;
+}
+
+.site-logo:hover {
+    opacity: 0.8;
+}
+
+.site-logo:active {
+    opacity: 0.6;
+}
+
+.site-logo__img {
+    display: block;
+    width: 120px;
+    height: 32px;
+}
+
+/* SITENAV */
+.sitenav {
+    margin-right: auto;
+}
+
+.sitenav__list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.sitenav__item:not(:last-child) {
+    margin-right: 29px;
+}
+
+.sitenav__link {
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 22px;
+    color: #9e9aa8;
+    transition: color 0.4s ease,
+        opacity 0.4s ease;
+}
+
+.sitenav__link:hover {
+    color: #34313d;
+}
+
+.sitenav__link:active {
+    opacity: 0.6;
+}
+
+/* REGISTRATION */
+.registration__login {
+    margin-right: 37px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #9e9aa8;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    transition: color 0.4s ease,
+        opacity 0.4s ease;
+}
+
+.registration__login:hover {
+    color: #34313d;
+}
+
+.registration__login:active {
+    opacity: 0.6;
+}
+
+.registration__sign-up {
+    font-weight: 700;
+    line-height: 22px;
+    padding: 8px 24px;
+    color: #fff;
+    background-color: #2bd0d0;
+    border: 0;
+    border-radius: 28px;
+    cursor: pointer;
+    transition: background-color 0.4s ease,
+        opacity 0.4s ease;
+}
+
+.registration__sign-up:hover {
+    background-color: #9ae3e3;
+}
+
+.registration__sign-up:active {
+    opacity: 0.6;
 }
