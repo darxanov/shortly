@@ -43,6 +43,12 @@ img {
 }
 
 
+/* MAIN-CONTENT */
+.main-content {
+    flex-grow: 1;
+}
+
+
 /* SITE-HEADER */
 .site-header { 
     padding-top: 48px;
