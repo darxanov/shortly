@@ -155,3 +155,67 @@ img {
 .registration__sign-up:active {
     opacity: 0.6;
 }
+
+
+/* HERO */
+.hero {
+    padding-top: 20px;
+}
+
+.hero__container {
+    display: flex;
+    align-items: center;
+}
+
+
+/* HERO__CONTENT */
+.hero__title {
+    width: 565px;
+    margin: 0;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: -2px;
+    color: #34313d;
+}
+
+.hero__text {
+    width: 540px;
+    margin: 0;
+    margin-bottom: 38px;
+    font-size: 22px;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    color: #9e9aa8;
+}
+
+.hero__link {
+    text-decoration: none;
+    padding: 14px 40px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 28px;
+    color: #fff;
+    background-color: #2bd0d0;
+    transition: background-color 0.4s ease,
+        opacity 0.4s ease;
+}
+
+.hero__link:hover {
+    background-color: #9ae3e3;
+}
+
+.hero__active {
+    opacity: 0.6;
+}
+
+
+/* HERO__RIGHT */
+.hero__img {
+    position: relative;
+    left: 55px;
+    width: 733px;
+    height: 482px;
+}
