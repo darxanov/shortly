@@ -1,0 +1,36 @@
+/* GLOBAL */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", "Arial", sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* CONTAINER */
+.container {
+    width: 100%;
+    max-width: 1140px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
