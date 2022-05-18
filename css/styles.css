@@ -358,7 +358,7 @@ img {
     padding-bottom: 57px;
     background-image: url(/img/cta__bg.svg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .cta__container {
@@ -376,4 +376,121 @@ img {
     line-height: 48px;
     letter-spacing: -1px;
     color: #fff;
+}
+
+
+/* FOOTER */
+.footer {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #232127;
+}
+
+.footer__container {
+    display: flex;
+}
+
+.footer__logo {
+    display: block;
+    width: 120px;
+    height: 32px;
+    margin-right: auto;
+    transition: opacity 0.4s ease;
+}
+
+.footer__logo:hover {
+    opacity: 0.8;
+}
+
+.footer__logo:active {
+    opacity: 0.6;
+}
+
+.footer__links-list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-right: 100px;
+    list-style: none;
+}
+
+.footer__link-list__item:not(:last-child) {
+    margin-right: 80px;
+}
+
+.footer__title {
+    margin: 0;
+    margin-bottom: 22px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+    color: #fff;
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer__item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer__link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.25px;
+    color: #bfbfbf;
+    transition: color 0.4s ease,
+        opacity 0.4s ease;
+}
+
+.footer__link:hover {
+    color: #2bd0d0;
+}
+
+.footer__link:active {
+    opacity: 0.6;
+}
+
+.footer__socials {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer__socials-item:not(:last-child) {
+    margin-right: 24px;
+}
+
+.footer__socials-link {
+    display: inline-block;
+    text-decoration: none;
+    transition: opacity 0.4s ease;
+}
+
+.footer__socials-link:hover {
+    opacity: 0.8;
+}
+
+.footer__socials-link:active {
+    opacity: 0.6;
+}
+
+.footer__socials-link__icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+
+.footer__socials-link__icon:focus {
+    outline: 2px dashed #2bd0d0;
+    outline-offset: 3px;
 }
